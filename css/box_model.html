@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: cyan;
+        }
+
+        .box1 {
+            color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+            /* This line says that the respective height mentioned is giving the info of both the border and padding value. */
+            /* If i did'nt put you are saying that height include the margin height too ,so it adds up that too */
+            /* There is concept of margin-collapse-which takes the largest value of two codes */
+        }
+
+        .box2 {
+            color: darkmagenta;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am another box</div>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        #first {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+
+        #second {
+            font-family: "Baloo Bhai 2", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        #height {
+            line-height: 56px;
+            letter-spacing: 4px;
+        }
+        /* Text decorations  */
+        h2{
+            text-align:center;
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-decoration-color: blue;
+            text-decoration-style: dotted;
+            /* text-decoration-style: solid; */
+            /* text-decoration-style:wavy ; */
+            text-decoration-thickness:7px ;
+            font-size: 30px;
+            /* text-indent:89px; */
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body> <br> <br> <br>
+    <div>
+        <h1>Fonts</h1>
+        <h2>About fonts</h2>
+        <p id="first">This page on fonts</p>
+        Check on codepen and google fonts for fonts by importing in the style sheet
+        <p id="second">This is second line.</p>
+        <p id="height">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium voluptatem deleniti
+            error aliquid hic, veniam, quia iste repellendus, voluptas veritatis quam autem.</p>
+    </div>
+</body>
+
+</html>
