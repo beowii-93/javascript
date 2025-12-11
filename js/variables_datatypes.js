@@ -2,7 +2,7 @@ console.log("hey this is tutorial page.")
 
 var a=5; //global variable
 var b=6;
-var c="harry";
+var c="preep";
 console.log(a+b+8)
 console.log(typeof a,typeof b,typeof c)
 
