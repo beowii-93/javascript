@@ -1,0 +1,289 @@
+// HTML basics
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is for tracking my web dev journey.">
+    <title>Document</title>
+    
+</head>
+
+<body>
+  //Header tags
+    <header>
+        <h1>All Websites</h1>
+    </header>
+    <h2>
+        <p>Google</p>
+    </h2>
+    <!-- To create a link -->
+    <p><a target="_blank" href="https://www.google.com/">Open Google</a></p>
+    <h2>
+
+        <p>Youtube</p>
+    </h2>
+    <a target="_blank" href="https://www.youtube.com/">Youtube</a>
+    <!-- Preformatted text  -->
+    <pre>
+        This is text which preserves both spaces and line breaks.
+     </pre>
+    <!-- Image Generation -->
+    <p></p>
+    <img width="230" height="230" src="image.png" alt="Environment">
+    <br>
+    <!-- Some odd and rare tags -->
+    <blockquote cite="https://www.pawkannur.org/">PAW is a trust formed in 2014 by a group of people.</blockquote>
+    <q>I think and think for many ninety-nine times but 100<sup>th</sup>time ,I am right!So keep thinking...</q><br>
+    <abbr title="World Wide Web">WWW</abbr>websites containing a lot of information.
+    <address>
+        Dayananda Sagar University <br>
+        Visit us on :Harohalli campus <br>
+        www.ddsu.edu.in<br>
+        Bengaluru<br>
+        Karnataka
+    </address>
+    Sudha Murthy <cite>The GOPI Diaries.</cite>
+    <a href="https://google.com" target="_self">Google</a>
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="https://google.com" target="_parent">Google</a>
+    <a href="https://google.com" target="_top">Google</a>
+    <a href="mailto:lalithan937@gmail.com">Send me an email.</a>
+    <!-- Character entities -->
+    <p>
+        10 &lt; 100 <br>
+        100 &nbsp;&gt;&nbsp; 20
+        <br> 10 &euro;
+
+    </p>
+    <!-- Table -->
+    <table border="1">
+        <caption>
+            <h2>Student details</h2>
+        </caption>
+
+
+        <thead>
+
+            <tr>
+                <th>Name </th>
+                <th>Age</th>
+                <th>Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lalitha</td>
+                <td>19</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>Merry</td>
+                <td>12</td>
+                <td rowspan="2">Python</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Lilly</td>
+                <td>34</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Lalitha</td>
+            <td>19</td>
+            <td>Java</td>
+        </tfoot>
+    </table>
+    <!-- Lists -->
+    <!-- Unordered Lists (By default ,list items will be displayed with bullets) -->
+    <ul type="circle">
+        <li>Harry</li>
+        <li>Rohan</li>
+        <li>Shubam</li>
+        <li>Rohit</li>
+    </ul>
+    <!-- ordered Lists (By default, the list items will be numbered)-->
+    <ol type="square">
+        <li>Harry</li>
+        <li>Rohan</li>
+        <li>Shubam</li>
+        <li>Rohit</li>
+    </ol>
+    <ol type="a">
+        <li>Harry</li>
+        <li>Rohan</li>
+        <li>Shubam</li>
+        <li>Rohit</li>
+    </ol>
+    <ol type="A">
+        <li>Harry</li>
+        <li>Rohan</li>
+        <li>Shubam</li>
+        <li>Rohit</li>
+    </ol>
+    <!-- Defination/Description lists -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>This is the defination of the html</dd>
+        <dt>CSS</dt>
+        <dd>This is the defination of the css.</dd>
+    </dl>
+    <dfn>
+        <a target="_blank" href="cat.png">Hey this is me</a>
+    </dfn>
+    <br>
+    <!-- Emphasis tag -->
+    <em>This is emphasis tag,which is different from the "i" tag.</em><br>
+    <i>This is i tag ,for styling in italic way.</i>
+    <!-- SEO and Core Web Vitals -->
+    Inspect --> lighthouse --> mobile/desktop --> Analyze (So here it analyzes the page)
+
+    <!-- Forms -->
+
+    <form action="post">
+        <h1>Form to apply for Sigma web development course</h1>
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="subscribe">Subscribe the channel</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        </div>
+        <div>
+            <label for="comment">Enter your comment here:</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="fruits">Select the fruit:</label>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+
+                <option value="Orange">Orange</option>
+                <option value="Banana">Banana</option>
+                <option value="Cherry">Cherry</option>
+            </select>
+        </div>
+
+    </form>
+    <!-- Inline and Block elements -->
+    <p>Hey I am a paragraph.</p>
+    <a href="https://google.com">Google</a>
+    <div>I am a block element</div>
+    <span>I am a span and inline</span>
+    <a href="">Yes this is inline</a>
+
+    <!-- block elements occupy lot of space and inline needs some space -->
+    <!-- ID and Classes in HTML  -->
+    <div id="Firstdiv" class="red">Firstdiv</div>
+    <div id="Seconddiv" class="red">SecondDev</div>
+
+    <!-- Vedio tags -->
+    <vedio src="" height="555" controls autoplay loop muted posture="paste ur image"></vedio>
+    <!-- loop -repeats again -->
+    <!-- controls - threee dot function -->
+    <!-- posture - like a thumbnail -->
+    <audio src="" controls autoplay loop muted>This text is displayed if the browser is unable to produce audio.</audio>
+
+
+    <!-- Form from the class notes --> <br>
+    <form></form>
+    <input type="text">
+    <input type="password" placeholder="Enter your password dude">
+    <input type="submit">
+    <input type="reset">
+    <input type="radio">
+    <input type="email" placeholder="Enter the email">
+    <input type="number">
+    <input type="checkbox">
+    <input type="date">
+    <input type="time">
+    <input type="file">
+    <input type="button" value="Click ME!" onclick="alert('Welcome!')">
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname" placeholder="User first name" autofocus required> <br>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname" placeholder="User last name"> <br>
+    <label for="pin">Enter the PIN:</label>
+    <input type="text" id="id" name="pin" maxlength="6" size="4" value="569908">
+    <br>
+    <input type="image" src="cat.png" alt="Submit" width="48" height="48">This picture is a submit button.
+    <label for="comment">Comment:</label>
+    <textarea name="comment" id="comment" placeholder="Write down your comments"></textarea>
+    <input type="submit">
+    <br>
+    <input type="radio" id="c" name="fav_language" value="C" checked>
+
+    <label for="c">C</label>
+    <input type="checkbox" id="c" name="fav_language" value="C" checked>
+
+    <label for="c">C</label>
+    <!-- for multiple files to be uploaded -->
+    <label for="files">Select files</label>
+    <input type="file" id="files" name="files" multiple> <br>
+
+    <label for="birthdaytime">Birthday(date and time):</label> <br>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"> <br>
+    <input type="month" id="bdaymonth" name="bdaymonth">
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{5}" maxlength="10">
+    <label for="homepage">Add your portfolio</label>
+    <input type="url" id="homepage" name="homepage"> <br>
+    <label for="number">Quantity (between 1 and 5)</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    <br>
+    <label for="vol">Volume (Between 0 and 50)</label>
+    <input type="range" id="vol" name="vol" min="0" max="50" step="1">
+    <br>
+    <label for="color">Select your favourite color:</label>
+    <input type="color" id="favcolor" name="favcolor">
+    <br>
+    <label for="gsearch">Google Search:</label>
+    <input type="search" id="gsearch" name="gsearch">
+    <br>
+    <fieldset>
+        <legend>Login Credentials</legend>
+        <label for="username">Username</label> <br>
+        <input type="text" id="username" name="username"> <br>
+        <label for="pwd">Password</label> <br>
+        <input type="password" id="pwd" name="pwd"> <br> <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </fieldset>
+    <input type="hidden" id="userid" name="userid" value="2344">
+    <input type="text">
+
+
+    </form>
+
+<!-- Semantic Tags(For better understanding of the website for optimaizing our website in order to make understand for the search engine.) -->
+ <header>
+    <nav>
+        <h3>Semantic tags</h3>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+ </header>
+ <main>
+    <h2>This is main tag</h2>
+ </main>
+ <footer>
+    &copy; Copright issue.
+ </footer>
+ 
+</body>
+
+</html>
